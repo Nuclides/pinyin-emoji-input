@@ -17,5 +17,5 @@ end
 
 ------------
 
-ime.register_command("em", "emojiInput", "Emoji", "none", "请输入 Emoji 描述")
+ime.register_command("em", "emojiInput", "Emoji", "digit", "请输入 Emoji 描述")
 
