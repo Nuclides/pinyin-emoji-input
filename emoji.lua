@@ -1,15 +1,10 @@
 -- encoding: UTF-8
 
-------------------------------------------------
+------------------------------------------------------------------------------
 -- Emoji 输入法
--- 版本: 0.1
--- 作者: LIU Dongyuan <liu.dongyuan@gmail.com>
--- 作者主页：https://github.com/xhacker
-------------------------------------------------
+-- 作者: LIU Dongyuan <liu.dongyuan@gmail.com>, CAO Shan <c.svenjax@gmail.com>
+------------------------------------------------------------------------------
 
--- Courtesy to http://www.hskhsk.com/2/post/2013/06/emoji-with-ios-pinyin-keyboard.html
--- TODO: full pinyin to emoji list.
-PINYIN_EMOJI = {
   ["bangqiu"] = {"⚾"},
   ["baobing"] = {"🍧"},
   ["bi"] = {"🆚"},
@@ -158,6 +153,7 @@ PINYIN_EMOJI = {
   ["zui"] = {"👄"},
   ["zuobian"] = {"👈"},
   ["zuqiu"] = {"⚽"},
+local PINYIN_EMOJI = {
 }
 
 function emojiInput(arg)
