@@ -1,12 +1,8 @@
 # -*- coding: utf-8 -*-
 import sys
 import plistlib
-from pypinyin import lazy_pinyin, load_phrases_dict
+from pypinyin import lazy_pinyin
 from jinja2 import Environment, FileSystemLoader
-
-
-def fix_pinyin():
-    load_phrases_dict({u'狼': [[u'láng']]})
 
 
 def get_readings(word, data):
@@ -20,7 +16,6 @@ def main():
     if len(sys.argv) > 1:
         path = sys.argv[1]
         emoji = plistlib.readPlist(path)
-        fix_pinyin()
         words = {}
         template_name = 'template.lua'
         env = Environment(loader=FileSystemLoader("./"), trim_blocks=True)

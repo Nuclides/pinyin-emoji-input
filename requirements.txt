@@ -1,2 +1,2 @@
-pypinyin
-jinja2
+pypinyin==0.5.3
+jinja2==2.7.3
