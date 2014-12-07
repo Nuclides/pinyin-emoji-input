@@ -7,7 +7,7 @@ from jinja2 import Environment, FileSystemLoader
 
 def get_readings(word, data):
     if 'readings' in data:
-        return ''.join(i for i in data['readings'] if not i.isdigit())
+        return ''.join(i for i in data['readings'][0] if not i.isdigit())
     else:
         return ''.join(lazy_pinyin(word))
 
