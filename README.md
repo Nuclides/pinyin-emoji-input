@@ -12,6 +12,8 @@ Emoji 拼音输入法扩展，可用于 [Google 拼音](http://www.google.com/in
 
 ## 生成扩展
 
+扩展使用 OS X 中的 `/usr/share/mecabra/zh/common/emoji.plist` 作为 emoji 数据，所以你需要在 OS X 上生成扩展。
+
 1. 安装 Python 3
 2. `sudo pip3 install -r requirements.txt`
 3. `python3 generator.py /usr/share/mecabra/zh/common/emoji.plist`
