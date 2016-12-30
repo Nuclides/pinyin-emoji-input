@@ -2,7 +2,7 @@
 
 Emoji 拼音输入法扩展，可用于 [Google 拼音](http://www.google.com/intl/zh-CN/ime/pinyin/)、[ibus-libpinyin](https://github.com/epico/ibus-libpinyin) 和 [Fcitx](https://fcitx-im.org)。安装扩展后，输入 iem + 拼音（如 iemgaoxing）即可输入相应表情符号。
 
-该项目可以使用 OS X 10.10 中的`/usr/share/mecabra/zh/common/emoji.plist`或 10.11 中的`/System/Library/LinguisticData/RequiredAssets_zh.bundle/AssetData/emoji.plist`生成 Lua 扩展。
+该项目可以使用 OS X 10.10 中的`/usr/share/mecabra/zh/common/emoji.plist`或 10.11 中的`/System/Library/LinguisticData/RequiredAssets_zh.bundle/AssetData/emoji.plist`生成 Lua 扩展。**该项目不支持 macOS 10.12 及以后版本，且已不在维护。**
 
 <img alt="Screenshot on Ubuntu" src="screenshots/ubuntu.png" width="378">
 
